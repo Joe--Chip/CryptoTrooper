@@ -47,7 +47,7 @@ apt-get install apache2 nginx-common mysql-server postgresql
 ```bash
 cd /
 mv $CRYPTOTROOPER_SOURCE_DIRECTORY/* .
-
+```
 
 *Encrypt*
 ```bash
