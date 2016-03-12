@@ -23,7 +23,7 @@ Pros :
 * Radom IV
 
 Cons :
-* [Chowns white-box construction](https://github.com/OpenWhiteBox/AES) is broken (not the implementation, but the algorithm itself), thus the ransomware presents ABSOLUTELY NO THREAT AND NO INTEREST FOR MALICIOUS PURPOSE
+* [Chowns white-box construction](http://www.scs.carleton.ca/%7Epaulv/papers/whiteaes.lncs.ps) is [broken](https://www.cosic.esat.kuleuven.be/publications/article-1503.pdf) (not the implementation, but the algorithm itself), thus the ransomware presents ABSOLUTELY NO THREAT AND NO INTEREST FOR MALICIOUS PURPOSE
 * CBC mode isn't the best-one for random data and not the fastest
 * 128-bit key-length should be longer
 * The same key is used for every file
