@@ -32,6 +32,7 @@ Cons :
 
 Purposes : 
 * Learn ransomware's implementations and concepts, in order to defeat it
+* Study cryptography
 * Practice reverse engineering
 * Be prepared for new and advanced threats
 * Demonstrate the ransomware's power and potential
