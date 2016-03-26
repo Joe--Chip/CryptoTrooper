@@ -39,6 +39,8 @@ Purposes :
 
 ##How to
 
+*DO NOT RUN IT ON YOUR OWN PC! USE VIRTUAL MACHINE*
+
 *Prepare environment*
 ```bash
 apt-get install apache2 nginx-common mysql-server postgresql
