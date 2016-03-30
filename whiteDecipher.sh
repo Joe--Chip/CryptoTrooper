@@ -1,6 +1,6 @@
 #!/bin/bash
 
-WKEY='a9cc73e0430a2a319571e8734c097d46'
+WKEY='a0edfd06081e270ae02de736e206e72c'
 KEY=key.enc
 IV=$(cat key.iv)
 

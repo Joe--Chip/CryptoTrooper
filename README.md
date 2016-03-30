@@ -3,7 +3,7 @@
 CryptoTrooper is the world's first Linux white-box ransomware for learning purpose
 
 It requires :
-* **Debian-based 64-bit OS with root** - mostly used nowadays
+* **Debian-based 32/64-bit OS with root** - mostly used nowadays
 * **Apache/Nginx** - for Web service encryption and for changing the main page
 * **MySQL/PostgreSQL** - for database encryption
 * **/root and /home** - for personal data encryption

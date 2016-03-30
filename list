@@ -3,4 +3,6 @@
 /var/www
 /usr/share/nginx
 /var/lib/mysql
+/var/run/mysql
 /var/lib/postgresql
+/var/run/postgresql
