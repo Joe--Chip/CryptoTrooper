@@ -6,7 +6,7 @@ It requires :
 * **Debian-based 32/64-bit OS with root** - mostly used nowadays
 * **Apache/Nginx** - for Web service encryption and for changing the main page
 * **MySQL/PostgreSQL** - for database encryption
-* **/root and /home** - for personal data encryption
+* **/root and /home** - for personal data encryption, except .ssh directory
 
 How it works :
 * **Infection** - the victim's server is exploited and infected somehow, gaining root privileges
