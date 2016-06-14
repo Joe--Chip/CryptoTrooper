@@ -3,7 +3,7 @@
 CryptoTrooper is the world's first Linux white-box ransomware for learning purpose
 
 It requires :
-* **Debian-based 32/64-bit OS with root** - mostly used nowadays
+* **Debian and Unix-based 32/64-bit OS with root** - mostly used nowadays
 * **Apache/Nginx** - for Web service encryption and for changing the main page
 * **MySQL/PostgreSQL** - for database encryption
 * **/root and /home** - for personal data encryption, except .ssh directory
@@ -43,7 +43,8 @@ Purposes :
 
 *Prepare environment*
 ```bash
-apt-get install apache2 nginx-common mysql-server postgresql
+/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+brew install apache2 nginx-common mysql-server postgresql
 ```
 
 *Prepare ransomware*
